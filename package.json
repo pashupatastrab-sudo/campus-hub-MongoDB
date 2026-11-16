@@ -1,0 +1,14 @@
+{
+  "name": "campus-hub",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Campus Hub - a campus community web app for students and teachers (React + Express + MongoDB).",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "start": "npm --prefix server start",
+    "seed:demo": "npm --prefix server run seed:demo"
+  }
+}
